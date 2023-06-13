@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		562B65D12A28EF8C00E6D7F1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B65D02A28EF8C00E6D7F1 /* main.swift */; };
+		562B65DA2A28EFBC00E6D7F1 /* Railroad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B65D82A28EFBC00E6D7F1 /* Railroad.swift */; };
+		562B65DB2A28EFBC00E6D7F1 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B65D92A28EFBC00E6D7F1 /* Region.swift */; };
+		562B65DD2A28F33800E6D7F1 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B65DC2A28F33800E6D7F1 /* City.swift */; };
+		562B65E02A2923DF00E6D7F1 /* throwaway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B65DE2A29234400E6D7F1 /* throwaway.swift */; };
+		562B65E42A29723900E6D7F1 /* Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B65E32A29723900E6D7F1 /* Association.swift */; };
+		562B65E62A29D43300E6D7F1 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B65E52A29D43300E6D7F1 /* Point.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		562B65CD2A28EF8C00E6D7F1 /* Railroad Baron */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Railroad Baron"; sourceTree = BUILT_PRODUCTS_DIR; };
 		562B65D02A28EF8C00E6D7F1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		562B65D82A28EFBC00E6D7F1 /* Railroad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Railroad.swift; sourceTree = "<group>"; };
+		562B65D92A28EFBC00E6D7F1 /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		562B65DC2A28F33800E6D7F1 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		562B65DE2A29234400E6D7F1 /* throwaway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = throwaway.swift; sourceTree = "<group>"; };
+		562B65E32A29723900E6D7F1 /* Association.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Association.swift; sourceTree = "<group>"; };
+		562B65E52A29D43300E6D7F1 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +53,7 @@
 		562B65C42A28EF8C00E6D7F1 = {
 			isa = PBXGroup;
 			children = (
-				562B65CF2A28EF8C00E6D7F1 /* Railroad Baron */,
+				562B65CF2A28EF8C00E6D7F1 /* source */,
 				562B65CE2A28EF8C00E6D7F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +66,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		562B65CF2A28EF8C00E6D7F1 /* Railroad Baron */ = {
+		562B65CF2A28EF8C00E6D7F1 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				562B65D72A28EFBC00E6D7F1 /* types */,
 				562B65D02A28EF8C00E6D7F1 /* main.swift */,
+				562B65DE2A29234400E6D7F1 /* throwaway.swift */,
 			);
-			path = "Railroad Baron";
+			path = source;
+			sourceTree = "<group>";
+		};
+		562B65D72A28EFBC00E6D7F1 /* types */ = {
+			isa = PBXGroup;
+			children = (
+				562B65D82A28EFBC00E6D7F1 /* Railroad.swift */,
+				562B65D92A28EFBC00E6D7F1 /* Region.swift */,
+				562B65DC2A28F33800E6D7F1 /* City.swift */,
+				562B65E32A29723900E6D7F1 /* Association.swift */,
+				562B65E52A29D43300E6D7F1 /* Point.swift */,
+			);
+			path = types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +117,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Charles Kerr and Mark Dillon";
 				TargetAttributes = {
 					562B65CC2A28EF8C00E6D7F1 = {
 						CreatedOnToolsVersion = 14.3;
@@ -120,7 +147,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562B65E42A29723900E6D7F1 /* Association.swift in Sources */,
+				562B65DB2A28EFBC00E6D7F1 /* Region.swift in Sources */,
 				562B65D12A28EF8C00E6D7F1 /* main.swift in Sources */,
+				562B65DD2A28F33800E6D7F1 /* City.swift in Sources */,
+				562B65E62A29D43300E6D7F1 /* Point.swift in Sources */,
+				562B65DA2A28EFBC00E6D7F1 /* Railroad.swift in Sources */,
+				562B65E02A2923DF00E6D7F1 /* throwaway.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CF264WE69M;
+				DEVELOPMENT_TEAM = L5YMUW3RGL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -255,7 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CF264WE69M;
+				DEVELOPMENT_TEAM = L5YMUW3RGL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
