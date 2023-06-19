@@ -253,6 +253,7 @@ let pointRegionMapping:[Point:Region] = [
     .se83:.southEast,
     .se84:.southEast,
     .se85:.southEast,
+    .se86:.southEast,
 
     //NorthCentral
     .nc1:.northCentral,
