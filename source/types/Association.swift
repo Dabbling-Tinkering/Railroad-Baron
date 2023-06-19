@@ -867,6 +867,7 @@ let pointRailroadMapping:[Point:[Railroad]] = [
     .se83:[.nw, .sou],
     .se84:[.sou],
     .se85:[.ln],
+    .se86:[.co],
     .nc1:[.co],
     .nc2:[.co],
     .nc3:[.co, .nyc],
