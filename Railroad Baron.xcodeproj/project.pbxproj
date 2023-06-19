@@ -37,6 +37,7 @@
 		562B65DE2A29234400E6D7F1 /* throwaway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = throwaway.swift; sourceTree = "<group>"; };
 		562B65E32A29723900E6D7F1 /* Association.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Association.swift; sourceTree = "<group>"; };
 		562B65E52A29D43300E6D7F1 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		58B0A1422A40F3AC00BF18B0 /* railmap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = railmap.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		562B65C42A28EF8C00E6D7F1 = {
 			isa = PBXGroup;
 			children = (
+				58B0A1422A40F3AC00BF18B0 /* railmap.pdf */,
 				562B65CF2A28EF8C00E6D7F1 /* source */,
 				562B65CE2A28EF8C00E6D7F1 /* Products */,
 			);
