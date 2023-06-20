@@ -530,6 +530,7 @@ let pointRegionMapping:[Point:Region] = [
     .pl117:.plains,
     .pl118:.plains,
     .pl119:.plains,
+    .pl120:.plains,
 
     //NorthWest
     .nw1:.northWest,
@@ -1139,6 +1140,7 @@ let pointRailroadMapping:[Point:[Railroad]] = [
     .pl117:[.cnw],
     .pl118:[.slsf],
     .pl119:[.cbq],
+    .pl120:[.cbq],
     .nw1:[.gn],
     .nw2:[.gn, .np],
     .nw3:[.np],

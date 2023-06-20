@@ -392,6 +392,7 @@ enum Point: String, CaseIterable,Hashable {
     case pl117 = "pl117"
     case pl118 = "pl118"
     case pl119 = "pl119"
+    case pl120 = "pl120"
 
     //NorthWest
     case nw1 = "nw1"
