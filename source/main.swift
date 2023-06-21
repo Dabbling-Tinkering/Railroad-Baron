@@ -6,15 +6,15 @@
 //
 
 import Foundation
-
+/*
 let city1:City = .denver
 let city2:City = .losAngeles
 
 print("Pay off for \(city1.description) to \(city2.description) : \(payOff(for: city1, to: city2))")
 
 print("City: \(city1.description) is in \(regionFor(city: city1)?.description ?? "uknown")")
-
-let url = URL(filePath: "/Users/markdillon/Development/RailroadBaron/rr")
+*/
+let url = URL(filePath: "/Users/markdillon/Development/RailroadBaron/adj")
 
 guard let data = try? Data(contentsOf: url) else {
     print("Unable to read: \(url.path)")
@@ -40,7 +40,7 @@ for line in lines {
     
     let section = line.split(separator: ",")
     if (!section.isEmpty) {
-        var pointrr = ""
+        var pointadj = ""
         let point = String(format: ".%@", section[0].trimmingCharacters(in: .whitespaces))
         var statement = ""
         if section.count > 1 {
@@ -50,21 +50,21 @@ for line in lines {
                 }
                 statement = statement + String(format: ".%@", section[index].trimmingCharacters(in: .whitespaces))
             }
-            pointrr = String(format: "\t%@:[%@],\n", point,statement)
+            pointadj = String(format: "\t%@:[%@],\n", point,statement)
         
-            print("\(pointrr)")
-            let data = pointrr.data(using: .ascii)!
+            print("\(pointadj)")
+            let data = pointadj.data(using: .ascii)!
             allData.append(data)
-            pointrr = ""
+            pointadj = ""
 
         }
         else {
-            print("Point not assigned to railroad: \(point)")
+            print("Point not adjacent to any other points: \(point)")
         }
         
         
     }
-    let saveurl = URL(filePath: "/Users/markdillon/Development/RailroadBaron/rrxcode")
+    let saveurl = URL(filePath: "/Users/markdillon/Development/RailroadBaron/adjxlscode")
 
     try! allData.write(to: saveurl)
 
