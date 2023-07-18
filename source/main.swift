@@ -14,7 +14,7 @@ print("Pay off for \(city1.description) to \(city2.description) : \(payOff(for: 
 
 print("City: \(city1.description) is in \(regionFor(city: city1)?.description ?? "uknown")")
 */
-let url = URL(filePath: "/Users/markdillon/Development/RailroadBaron/adj")
+/*let url = URL(filePath: "/Users/markdillon/Development/RailroadBaron/adj")
 
 guard let data = try? Data(contentsOf: url) else {
     print("Unable to read: \(url.path)")
@@ -26,14 +26,17 @@ guard let contents = String(data: data, encoding: .ascii) else {
     exit(1)
 
 }
+*/
 
-let lines = contents.split(separator: "\n")
+
+//let lines = contents.split(separator: "\n")
 
 /*
 let temp = [Point:[Railroad]] = [
     
 ]
 */
+/*
 var allData:Data = Data()
 
 for line in lines {
@@ -69,7 +72,9 @@ for line in lines {
     try! allData.write(to: saveurl)
 
 }
+*/
 
+//    let value = "\(pt):coord_t(x:\(loc.0),y:\(loc.1)),"
 
 /* var allData:Data = Data()
 
@@ -155,3 +160,7 @@ let url = URL(filePath: "/Users/charles/Development/projects/RailroadBaron/point
 
 try! allData.write(to: url)
 */
+
+//let mypoint = ".sc50"
+//print(pointLocationMapping.sc50.description)
+
